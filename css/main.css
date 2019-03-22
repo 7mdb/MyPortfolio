@@ -1,0 +1,55 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2d3c49;
+}
+hr{
+  border-bottom: 4px solid #7d97ad
+}
+figure{
+  text-align: center;
+}
+.img-blur{
+  -webkit-filter: blur(2px);
+ filter: blur(2px);
+}
+.main-img{
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+}
+.header__inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+}
+
+/* @media queries */
+@media only screen and (max-width: 395px){
+  .header-text {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px){
+  .header-text {
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 992px){
+  .container {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
